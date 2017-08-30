@@ -1,0 +1,64 @@
+
+body {
+	background-color: white;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+h1 {
+	text-align: center;
+	color: white;
+	font-family: Lato;
+	font-size: 25px;
+}
+
+.row {
+	height: 100vh;
+	display: flex;
+}
+
+.col-6 {width: 50%;}
+
+div.col-6.frog {
+	background-image: url(http://1.bp.blogspot.com/-zSpBBMFpw8c/Uf1wC1TrAaI/AAAAAAAACAY/wmscE-0_eqU/s1600/3D+Animals+wallpapers10.jpg);
+	background-size: 100%;
+	background-position: 100px;
+	background-repeat: no-repeat;
+}
+
+button {
+	border: none;
+	background-color: darkorange;
+	color: white;
+	text-align: center;
+	padding: 10px 50px 10px 50px;
+	margin-top: 40vh;
+	margin-left: 7vw;
+	box-shadow: 1px 4px 23px 1px rgba(0,0,0,0.34);
+	border-radius: 5%;
+}
+
+.navbar > ul {
+	background-color: inherit;
+	text-align: right;
+	margin: 0 50px;
+}
+
+.navbar > ul > li {
+	display: inline-block;
+}
+
+.navbar > ul > li > a {
+	line-height: 40px;
+	color: darkorange;
+	text-decoration: none;
+	margin: 0 10px;
+	font-weight: bold;
+	font-family: Lato;
+	padding: 10px;
+}
+
+.navbar > ul >li > a:hover {
+	color: white;
+	background-color: darkorange;
+	padding: 10px;
+}
